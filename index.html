@@ -1,66 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navigation Bar with Search Box</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <!-- Unicons CSS -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-   
-  </head>
-  <body>
-    <header>
-    <nav class="nav">
-      <i class="uil uil-bars navOpenBtn"></i>
-      <a href="#" class="logo">Mentii</a>
-      <ul class="nav-links">
-        <i class="uil uil-times navCloseBtn"></i>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Community</a></li>
-        <!--<li><a href="#"></a></li>-->
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-      <!--
-      <i class="uil uil-search search-icon" id="searchIcon"></i>
-      <div class="search-box">
-        <i class="uil uil-search search-icon"></i>
-        <input type="text" placeholder="Search here..." />
-      </div>-->
-    </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentii</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-  </header>
 
-  <main>
+<body theme="black">
 
-  
-   <div class="wrapper">
-    <div class="neptune-container">
-      <img src="img/smiley.png" alt="" srcset="">
-    </div>
+    
 
-    <div class="uranus-container">
-      <img src="img/smiley.png" alt="" srcset="">
-    </div>
+   <div class="main w-full relative">
+     <div data-color="black" class="home section w-full h-[200vh] relative">
+        <div class="w-full sticky top-0 left-0">
 
-    <div class="saturn-container">
-      <img src="img/smiley.png" alt="" srcset="">
-    </div>
+            
+            <div id="nav-main">
+                <div id="nav">
+                    <h1>This id</h1>
+                    <div id="part2">
+                        <a href="a">Games</a>
+                        <a href="a">Community</a>
+                        <a href="a">About</a>
+                        <a href="a">Service</a>
+                    </div>
+                </div>
+            </div>
 
-    <div class="jupiter-container">
-      <img src="img/smiley.png" alt="" srcset="">
-    </div>
-   </div>
+            <div class="btmtext absolute z-[4] bottom-[7%] left-[3%] w-52">
+                <h1>We Built Big Ideas Software App.For real people.Real lives.</h1>
+            </div>
+         
 
-  </main>
- 
 
-  <footer>
 
-  </footer>
+            <div style="--clip: 100%" class="vdodiv w-full h-screen absolute z-[3] top-0 left-0 bg-black overflow-hidden" >
+                <video autoplay loop muted="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" src="img/video1.mp4"></video>
+            </div>
+            <div class="marqueecontainer w-full h-screen relative overflow-hidden">
+                <div class="heading absolute top-[7%] left-1/2 -translate-x-1/2 w-60 text-center ">
+                    <h1 class="text-xl font-regular"> Crafting a new Paradigm of Health Care</h1>
+                </div>
+                
+                <div class="slidesm absolute scale-[1]    w-[90%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                     <div class="row lft -translate-x-1/2 py-2 w-full flex items-center gap-10 whitespace-norap">
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">depressed</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Very Sad Emoji.png" alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">sad</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Very Sad Emoji.png" alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">emotional</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Very Sad Emoji.png" alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">anxiety</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Very Sad Emoji.png" alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">moody</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Very Sad Emoji.png" alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">sad</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Sad Face Emoji.png" alt="">
+                            </div>
+                        </div>
+                     </div>
+                     <div class="row rgt -translate-x-1/3 py-2 w-full flex items-center gap-10 whitespace-norap">
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">emotional</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <a href="https://google.com">
+                                <img class="w-full h-full object-cover" src="img/Loudly Crying Face Emoji.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">crying</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <a href="https://google.com">
+                                <img class="w-full h-full object-cover" src="img/Loudly Crying Face Emoji.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">intutive</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Very Sad Emoji.png" alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">empathetic</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Very Sad Emoji.png" alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">Tired</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Tired Face Emoji.png" alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">intutive</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Very Sad Emoji.png" alt="">
+                            </div>
+                        </div>
+                     </div>
+                     <div class="row lft -translate-x-2/3 py-2 w-full flex items-center gap-10 whitespace-norap">
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">empathetic</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Very Sad Emoji.png" alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">useful</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Very Sad Emoji.png" alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">intutive</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Very Sad Emoji.png" alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">empathetic</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Very Sad Emoji.png" alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">useful</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Very Sad Emoji.png" alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-10">
+                            <h1 class="font-regular font-['Pp_New_Machina'] text-8xl">intutive</h1>
+                            <div class="image w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                <img class="w-full h-full object-cover" src="img/Very Sad Emoji.png" alt="">
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+       
+     </div>
 
-    <script src="js/script.js" defer></script>
-  </body>
+
+     <div data-color="salmon" class="craft section w-full flex gap-10 justify-between items-start px-10 py-10 relative">
+         <div class="ltext w-[40%] sticky top-0 left-0">
+            <p class="text-3xl font-light leading-[3rem]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quia eum tenetur molestiae hic porro nostrum similique minima corrupti ipsum, quasi, veniam est architecto numquam?</p>
+            <h1 class="text-[5rem] leading-[6.5rem] mt-20 font-['Poppins'] mb-10">We Craft Experiences</h1>
+            <div class="w-fit px-10 py-5 border-[1px] border-[--dcyan]">
+                <div class="masker overflow-hidden">
+                    <span class="inline-block ">Our Solutions</span>
+                </div>
+            </div>
+         </div>
+         <div class="cards w-1/2">
+            <h1 class="text-6xl">Lorem ipsuisis incidunttaiciendis ut necessitatibus maxime quisquam saepe voluptatum dolores ea, exercitationem ratione? Corrupti incidunt, sit reprehenderit iure officiis nam nemo assumenda deleniti harum ea obcaecati natus, asperiore sed molesiciorllam. Nemo dignissimos animi incidunt est dolorum euea. Tenetur, eius incidunt molestiae, necessitatibus aliquid quisquam, ipsa corrupti nihil consequuntur facilis voluptatem inventore ipsam dolorem unde perspiciatis. Enim voluptatem atque, numquam aliquam natus, sed, doloremque ducimus laborum mollitia pariatur blanditiis magnam.</h1>
+         </div>
+     </div>
+     <div data-color="white" class="real section w-full">
+        <div class="cont h-[400vh] relative">
+            <div class="slides sticky top-0 left-0 flex gap-20 w-full h-[100vh]">
+                <div class="slide w-full flex items-center justify-center h-screen flex-shrink-0 ">
+                    <div class="text font-['Poppins']">
+                        <h1 class="text-8xl">Real Talk</h1>
+                        <h1 class="text-8xl">Real impact</h1>
+                    </div>
+                    <div class="image absolute top-1/2 rounded-full overflow-hidden -translate-y-1/2 right-0 translate-x-1/2 w-[20rem] h-[20rem] bg-red-600">
+                        <img class="w-full h-full object-cover" src="img/calm.png" alt="">
+                    </div>
+                </div>
+
+                <div class="slide w-full h-screen flex justify-center items-center flex-shrink-0 relative ">
+                    <div class="img1 absolute z-[3] left-[15%] top-2/3 -translate-y-1/3 rounded-full overflow-hidden w-[15rem] h-[15rem]">
+                        <img class="w-full h-full object-cover" src="img/cc.png" alt="">
+                    </div>
+                    <div class="img1 absolute z-[3] left-1/2 top-0 -translate-y-1/2 -translate-x-1/2 rounded-full overflow-hidden w-[25rem] h-[25rem]">
+                        <img class="w-full h-full object-cover" src="img/c3.png" alt="">
+                    </div>
+
+                    <div class="w-[60%] font-['Poppins'] text-center relative">
+                        <h3 class="w-1/3 text-left font-regular top-0 left-0 leading-7 text-[1.3rem] tracking-tight -translate-y-1/2 -translate-x-1/2">WE are normal we have built products and solutions WE are normal we have built products WE are normal we have built products</h3>
+                        <h1 class="font-semibold text-[12rem] leading-none  text-white">20.4M</h1>
+                        <h3 class="text-5xl leading-none tracking-tight">Real people ---real lives--we have built products and solutions for.</h3>
+                    </div>
+                    <div class="image absolute top-1/2 rounded-full overflow-hidden -translate-y-1/2 right-0 translate-x-1/2 w-[20rem] h-[20rem] bg-red-600">
+                        <img class="w-full h-full object-cover" src="img/calm.png" alt="">
+                    </div>
+                </div>
+                <div class="slide w-full h-screen flex justify-center items-center flex-shrink-0 relative">
+                    <div class="w-[60%] font-['Poppins'] text-center relative">
+                        <h3 class="w-1/3 text-left font-regular top-0 left-0 leading-7 text-[1.3rem] tracking-tight -translate-y-1/2 -translate-x-1/2">WE are normal we have built products and solutions WE are normal we have built products WE are normal we have built products</h3>
+                        <h1 class="font-semibold text-[12rem] leading-none  text-white">49%</h1>
+                        <h3 class="text-5xl leading-none tracking-tight">Real people ---real lives--we have built products and solutions for.</h3>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+     </div>
+
+     <div data-color="black" class="team section font-['Pp_New_Machina'] py-20">
+        <h1 class="text-center semibold  text-8xl tracking-tight">Our Communities</h1>
+        <div class="list w-full mt-10 px-10">
+            <div class="listelem border-b-2 border-black w-full py-[3rem] relative">
+                <div class="relative flex item-center justify-between z-[3]">
+                <div class="left flex gap-20">
+                    <h3 class="text-5xl">01</h3>
+                    <h1 class="text-5xl">Art Community</h1>
+                </div>
+                <h3 class="text-3xl">Join us</h3>
+                </div>
+                <div class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-600"></div>
+                <div class="bluelayer absolute z[2] bottom-0 left-0 w-full h-[0%] bg-blue-500"></div>
+            </div>
+              
+            <div class="listelem border-b-2 border-black w-full py-[3rem] relative">
+                <div class="relative flex item-center justify-between z-[3]">
+                <div class="left flex gap-20">
+                    <h3 class="text-5xl">02</h3>
+                    <h1 class="text-5xl">Health Community</h1>
+                </div>
+                <h3 class="text-3xl">Join us</h3>
+                </div>
+                <div class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-600"></div>
+                <div class="bluelayer absolute z[2] bottom-0 left-0 w-full h-[0%] bg-blue-500"></div>
+            </div>
+            
+            <div class="listelem border-b-2 border-black w-full py-[3rem] relative">
+                <div class="relative flex item-center justify-between z-[3]">
+                <div class="left flex gap-20">
+                    <h3 class="text-5xl">03</h3>
+                    <h1 class="text-5xl">Meditation Community</h1>
+                </div>
+                <h3 class="text-3xl">Join us</h3>
+                </div>
+                <div class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-600"></div>
+                <div class="bluelayer absolute z[2] bottom-0 left-0 w-full h-[0%] bg-blue-500"></div>
+            </div>
+
+            <div class="listelem border-b-2 border-black w-full py-[3rem] relative">
+                <div class="relative flex item-center justify-between z-[3]">
+                <div class="left flex gap-20">
+                    <h3 class="text-5xl">04</h3>
+                    <h1 class="text-5xl">Dance Community</h1>
+                </div>
+                <h3 class="text-3xl">Join us</h3>
+                </div>
+                <div class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-600"></div>
+                <div class="bluelayer absolute z[2] bottom-0 left-0 w-full h-[0%] bg-blue-500"></div>
+            </div>
+
+            <!-- <div class="listelem border-b-2 border-black w-full py-[3rem] relative">
+                <div class="relative flex item-center justify-between z-[3]">
+                <div class="left flex gap-20">
+                    <h3 class="text-5xl">05</h3>
+                    <h1 class="text-5xl">Dr.Rick Mac</h1>
+                </div>
+                <h3 class="text-3xl">CEO</h3>
+                </div>
+                <div class="picture hidden absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-600"></div>
+                <div class="bluelayer absolute z[2] bottom-0 left-0 w-full h-[0%] bg-blue-500"></div>
+            </div> -->
+
+           
+        </div>
+
+
+   </div> 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" 
+   integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" 
+   integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" 
+   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
 </html>
