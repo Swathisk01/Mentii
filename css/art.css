@@ -1,0 +1,25 @@
+@import url('https://fonts.googleeapis.com/css2?f');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+g.,nd
+.home {
+    display: flex;
+    height: 100dvh;
+    background: linear-gradient(to top, #000);
+    
+
+}
+
+.home img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+}
