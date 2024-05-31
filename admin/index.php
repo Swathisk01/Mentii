@@ -66,9 +66,9 @@
     <div class="toast-body text-white">
     </div>
   </div>
- <main id="view-panel" >
+  <main id="view-panel" >
       <?php $page = isset($_GET['page']) ? $_GET['page'] :'home'; ?>
-      <?php include $page.'.php' ?>
+  	<?php include $page.'.php' ?>
   	
 
   </main>

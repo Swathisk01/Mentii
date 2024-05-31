@@ -83,11 +83,23 @@
         </div>
     </section>
 
-
-    <section id="sounds">
-        <h1 class="gamesh">Sounds</h1>
-        
-
+    <section id="audioClips">
+        <div class="video-container">
+            <video id="videoPlayer" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="audio-clips-container">
+            <button class="audio-button" onclick="playClip('clip1.mp3')">Audio Clip 1</button>
+            <button class="audio-button" onclick="playClip('clip2.mp3')">Audio Clip 2</button>
+            <!-- Add more audio buttons as needed -->
+        </div>
     </section>
+
+
+    <script src="js/games.js"></script>
+
+
 </body>
 </html>
